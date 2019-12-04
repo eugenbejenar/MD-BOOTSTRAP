@@ -1,11 +1,13 @@
+  
 header {
   .navbar {
       background-color: $gray-800;
   }
+
   .navbar-brand {
-    img {
-    width: auto;
-    max-width: 80px;
-    }
+      img {
+          width: auto;
+          max-width: 80px;
+      }
   }
 }

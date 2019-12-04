@@ -9,41 +9,9 @@
 </head>
 
 <body>
-  <!--Main Navigation-->
-<header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark  scrolling-navbar">
-      <a class="navbar-brand" href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BD%D1%82%D0%B0"><img src="/src/img/fanta.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Opinions</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-flex-icons">
-            <li class="nav-item">
-              <a class="nav-link"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"><i class="fa fa-instagram"></i></a>
-            </li>
-        </ul>
-      </div>
-    </nav>
+    <!--Main Navigation-->
+  <header id="header-hbs">
+    
   </header>
   <!--Main Navigation-->
 
@@ -106,53 +74,52 @@
   <!--/.Carousel Wrapper-->
 
   <div class="container-fluid">
-      <!-- page content here -->
       <!--Section: Features v.1-->
-<section class="section feature-box">
+      <section class="section feature-box">
 
-    <!--Section heading-->
-    <h1 class="section-heading pt-4">Why is it so great?</h1>
-    <!--Section description-->
-    <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <!--Section heading-->
+        <h1 class="section-heading pt-4">Why is it so great?</h1>
+        <!--Section description-->
+        <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      
+        <!--Grid row-->
+        <div class="row features-big">
+      
+          <!--Grid column-->
+          <div class="col-md-4 mb-r">
+            <i class="fa fa-area-chart red-text"></i>
+            <h5 class="feature-title">Analytics</h5>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-md-4 mb-r">
+            <i class="fa fa-book cyan-text"></i>
+            <h5 class="feature-title">Tutorials</h5>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-md-4 mb-r">
+            <i class="fa fa-coffee orange-text"></i>
+            <h5 class="feature-title">Relax</h5>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+          </div>
+          <!--Grid column-->
+      
+        </div>
+        <!--Grid row-->
   
-    <!--Grid row-->
-    <div class="row features-big">
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-r">
-        <i class="fa fa-area-chart red-text"></i>
-        <h5 class="feature-title">Analytics</h5>
-        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-r">
-        <i class="fa fa-book cyan-text"></i>
-        <h5 class="feature-title">Tutorials</h5>
-        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-r">
-        <i class="fa fa-coffee orange-text"></i>
-        <h5 class="feature-title">Relax</h5>
-        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-  </section>
-  <!--Section: Features v.1-->
-  <blockquote class="blockquote">
-      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
+      </section>
+      <!--Section: Features v.1-->
+      <blockquote class="blockquote">
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
 
-    <!--Section: Blog v.3-->
+      <!--Section: Blog v.3-->
 <section class="section extra-margins pb-3 text-center text-lg-left">
 
     <!--Section heading-->
@@ -182,7 +149,8 @@
         <h4 class="mb-3"><strong>This is title of the news</strong></h4>
         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
         <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
-        <a class="btn btn-primary btn-sm">Read more</a>
+        <button onclick="alert('clicked')"
+         class="btn btn-primary btn-sm">Read more via HTML attribute</button>
       </div>
       <!--Grid column-->
   
@@ -213,7 +181,7 @@
         <h4 class="mb-3"><strong>This is title of the news</strong></h4>
         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et dolorum fuga.</p>
         <p>by <a><strong>Jessica Clark</strong></a>, 24/08/2016</p>
-        <a class="btn btn-primary btn-sm">Read more</a>
+        <button id="cta2" class="btn btn-primary btn-sm">Read more via DOM property</button>
       </div>
       <!--Grid column-->
   
@@ -244,7 +212,7 @@
         <h4 class="mb-3"><strong>This is title of the news</strong></h4>
         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
         <p>by <a><strong>Jessica Clark</strong></a>, 21/08/2016</p>
-        <a class="btn btn-primary btn-sm">Read more</a>
+        <button id="cta3" class="btn btn-primary btn-sm">Read more</button>
       </div>
       <!--Grid column-->
   
@@ -254,111 +222,9 @@
   </section>
   <!--Section: Blog v.3-->
     </div>
+
     <!--Footer-->
-<footer class="page-footer center-on-small-only stylish-color-dark">
-
-    <!--Footer Links-->
-    <div class="container">
-      <div class="row">
-  
-        <!--First column-->
-        <div class="col-md-4">
-          <h5 class="title mb-4 mt-3 font-bold">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit.</p>
-        </div>
-        <!--/.First column-->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!--Second column-->
-        <div class="col-md-2 mx-auto">
-          <h5 class="title mb-4 mt-3 font-bold">Links</h5>
-          <ul>
-            <li><a href="#!">Link 1</a></li>
-            <li><a href="#!">Link 2</a></li>
-            <li><a href="#!">Link 3</a></li>
-            <li><a href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <!--/.Second column-->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!--Third column-->
-        <div class="col-md-2 mx-auto">
-          <h5 class="title mb-4 mt-3 font-bold">Links</h5>
-          <ul>
-            <li><a href="#!">Link 1</a></li>
-            <li><a href="#!">Link 2</a></li>
-            <li><a href="#!">Link 3</a></li>
-            <li><a href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <!--/.Third column-->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!--Fourth column-->
-        <div class="col-md-2 mx-auto">
-          <h5 class="title mb-4 mt-3 font-bold ">Links</h5>
-          <ul>
-            <li><a href="#!">Link 1</a></li>
-            <li><a href="#!">Link 2</a></li>
-            <li><a href="#!">Link 3</a></li>
-            <li><a href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <!--/.Fourth column-->
-      </div>
-    </div>
-    <!--/.Footer Links-->
-  
-    <hr>
-  
-    <!--Call to action-->
-    <div class="call-to-action">
-      <ul>
-        <li>
-          <h5 class="mb-1">Register for free</h5>
-        </li>
-        <li><a href="" class="btn btn-danger btn-rounded">Sign up!</a></li>
-      </ul>
-    </div>
-    <!--/.Call to action-->
-  
-    <hr>
-  
-    <!--Social buttons-->
-    <div class="social-section text-center">
-      <ul>
-  
-        <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
-        <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
-        <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
-        <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
-        <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
-  
-      </ul>
-    </div>
-    <!--/.Social buttons-->
-  
-    <!--Copyright-->
-    <div class="footer-copyright">
-      <div class="container-fluid">
-        © 2019 Copyright: <a href="fanta.com"> Fanta  </a>
-      </div>
-    </div>
-    <!--/.Copyright-->
-  
-  </footer>
-  <!--/.Footer-->
-
-    
-   
-  
-
- 
+    <footer class="page-footer center-on-small-only stylish-color-dark" id="footer-hbs"></footer>
 </body>
 
 </html>

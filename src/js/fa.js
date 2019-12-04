@@ -1,4 +1,3 @@
-
 // FontAwesome 5
 import fontawesome from '@fortawesome/fontawesome';
 

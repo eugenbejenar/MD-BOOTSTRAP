@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 // jQuery
 import 'jquery';
 
@@ -9,10 +10,17 @@ import 'bootstrap';
 
 // Material Design Bootstrap
 // import '../vendors/mdb/js/mdb';
-import 'mdbootstrap';
+// import 'mdbootstrap';
 
 // Fontawesome 5
 import './fa';
 
+import './components/header/header';
+import './components/footer/footer';
 
-console.log('dsfds');
+
+cta2.onclick = function (e) {
+  alert('click on me', e);
+};
+
+document.getElementById('cta3').addEventListener('click', () => { alert('You clicked third CTA'); });
